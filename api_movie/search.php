@@ -11,8 +11,6 @@ $title = 'Result Search | '.$input;
 include_once "api/api_search.php";
 ?>
     <h7>Result Search: <em><?php echo $input?></em></h7>
-    <hr>
-    <ul>
 <?php
 	if ($search=="" or $search==null) {
 		echo "Data tidak Ditemukan";
@@ -43,6 +41,3 @@ include_once "api/api_search.php";
 		}
         }
         ?>
-        </ul>
- <?php
-?>
