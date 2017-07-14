@@ -2,8 +2,6 @@
   include "conf/info.php";
   $title="Popular Movies";
 ?>
-    <hr>
-    <ul>
       <?php
         include_once "api/api_popular.php";
         if ($popular=="" or $popular==null) {
@@ -18,4 +16,3 @@
         }
       }
       ?>
-    </ul>
